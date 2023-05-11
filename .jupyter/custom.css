@@ -1,0 +1,34 @@
+/*This file contains any manual css for this page that needs to override the global styles.
+This is only required when different pages style the same element differently. This is just
+a hack to deal with our current css styles and no new styling should be added in this file.*/
+
+#ipython-main-app {
+	position: relative;
+}
+#jupyter-main-app {
+	position: relative;
+}
+
+div#notebook p,
+div#notebook {
+	line-height: 125%;
+}
+.rendered_html pre,
+.rendered_html table {
+	font-size: 88%;
+	line-height: 125%;
+	font-family: "JetBrains Mono";
+}
+
+pre {
+	font-family: "Fira Code";
+}
+.CodeMirror,
+.CodeMirror pre,
+.CodeMirror-dialog,
+.CodeMirror-dialog .CodeMirror-search-field,
+.terminal-app .terminal {
+	font-size: 110%;
+	line-height: 125%;
+	font-family: "Fira Code";
+}

@@ -22,6 +22,7 @@ div#notebook {
 
 pre {
 	font-family: "Fira Code";
+	font-size: 105%;
 }
 .CodeMirror,
 .CodeMirror pre,

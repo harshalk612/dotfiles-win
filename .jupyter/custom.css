@@ -46,3 +46,8 @@ pre {
 .container {
 	width: 88% !important;
 }
+
+div.cell.selected {
+	border-left-width: 1px !important;
+	margin-left: -1.5rem;
+}

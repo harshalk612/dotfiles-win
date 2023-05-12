@@ -42,3 +42,7 @@ pre {
 	line-height: 125%;
 	font-family: "Fira Code";
 }
+
+.container {
+	width: 88% !important;
+}

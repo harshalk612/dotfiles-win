@@ -49,5 +49,8 @@ pre {
 
 div.cell.selected {
 	border-left-width: 1px !important;
-	margin-left: -1.5rem;
+}
+
+.rendered_html code {
+	font-family: "Fira Code";
 }
